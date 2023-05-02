@@ -1,0 +1,11 @@
+.make-rounded {
+  border-radius: 50em;
+  border: 6px solid transparent;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  border-top-color: #23e5db;
+  border-bottom-color: #ffce32;
+  border-left-color: #ffce32;
+  border-right-color: #3a77ff;
+  box-shadow: 0px 3px 10px 1px #7c7c7c6c;
+}
