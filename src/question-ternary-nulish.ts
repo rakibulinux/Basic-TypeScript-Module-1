@@ -10,7 +10,7 @@ console.log(isAdult);
 const isAuthenticatedUser = undefined;
 
 const userName = isAuthenticatedUser ?? "Guest";
-
+const myName: string = "rakib";
 console.log(userName);
 
 type UserType = {
@@ -35,3 +35,15 @@ const user1: UserType = {
 const home = user1?.address?.home ?? "Boro Bazer";
 
 console.log({ home }, { user1 });
+
+function generateAdder(a: number): (b: number) => number {
+  return function (b: number) {
+    return a + b;
+  };
+}
+
+const addTwo = generateAdder(2);
+
+console.log(addTwo(3));
+
+console.log(addTwo(5));
